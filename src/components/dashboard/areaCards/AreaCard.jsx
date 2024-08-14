@@ -12,8 +12,8 @@ const AreaCard = ({ colors, percentFillValue, cardInfo }) => {
 
   //shows the below value when the pie chart is hovered on
   const data = [
-    { name: "Remained", value: remainedValue },
-    { name: "Achieved Sales", value: filledValue },
+    { name: "Organic Waste", value: remainedValue },
+    { name: "Plastic Waste", value: filledValue },
   ];
 
   const renderTooltipContent = (value) => {

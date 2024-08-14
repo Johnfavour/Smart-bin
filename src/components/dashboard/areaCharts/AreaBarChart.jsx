@@ -56,8 +56,23 @@ const data = [
   },
   {
     month: "Sep",
-    loss: 55,
+    loss: 25,
     profit: 78,
+  },
+  {
+    month: "Oct",
+    loss: 55,
+    profit: 65,
+  },
+  {
+    month: "Nov",
+    loss: 30,
+    profit: 90,
+  },
+  {
+    month: "Dec",
+    loss: 20,
+    profit: 50,
   },
 ];
 

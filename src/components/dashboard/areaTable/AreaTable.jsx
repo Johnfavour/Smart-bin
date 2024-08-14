@@ -14,55 +14,55 @@ const TABLE_HEADS = [
 const TABLE_DATA = [
   {
     id: 100,
-    name: "Iphone 13 Pro",
-    order_id: 11232,
-    date: "Jun 29,2022",
-    customer: "Afaq Karim",
+    name: "Plastic",
+    order_id: "ACT11232",
+    date: "Apr 29,2022",
+    customer: "Park Avenue",
     status: "delivered",
-    amount: 400,
+    amount: 40,
   },
   {
     id: 101,
-    name: "Macbook Pro",
-    order_id: 11232,
-    date: "Jun 29,2022",
-    customer: "Afaq Karim",
+    name: "Organic",
+    order_id: "ACT11232",
+    date: "July 29,2022",
+    customer: "City Center",
     status: "pending",
-    amount: 288,
+    amount: 28,
   },
   {
     id: 102,
-    name: "Apple Watch",
-    order_id: 11232,
-    date: "Jun 29,2022",
-    customer: "Afaq Karim",
+    name: "Metal",
+    order_id: "ACT67890",
+    date: "May 29,2022",
+    customer: "Residential Area",
     status: "canceled",
-    amount: 500,
+    amount: 50,
   },
   {
     id: 103,
-    name: "Microsoft Book",
-    order_id: 11232,
-    date: "Jun 29,2022",
-    customer: "Afaq Karim",
+    name: " Food Waste",
+    order_id: "ACT11222",
+    date: "Mar 29,2022",
+    customer: "GRA estate",
     status: "delivered",
-    amount: 100,
+    amount: 10,
   },
   {
     id: 104,
-    name: "Apple Pen",
-    order_id: 11232,
-    date: "Jun 29,2022",
-    customer: "Afaq Karim",
+    name: "Paper",
+    order_id: "ACT14456",
+    date: "Aug 29,2022",
+    customer: "Eke Awka",
     status: "delivered",
     amount: 60,
   },
   {
     id: 105,
-    name: "Airpods",
-    order_id: 11232,
+    name: "Glass",
+    order_id: "ACT8902",
     date: "Jun 29,2022",
-    customer: "Afaq Karim",
+    customer: "Building 5, Floor 1",
     status: "delivered",
     amount: 80,
   },
@@ -72,7 +72,7 @@ const AreaTable = () => {
   return (
     <section className="content-area-table">
       <div className="data-table-info">
-        <h4 className="data-table-title">Latest Orders</h4>
+        <h4 className="data-table-title">Recent Bin Activities</h4>
       </div>
       <div className="data-table-diagram">
         <table>
@@ -99,7 +99,7 @@ const AreaTable = () => {
                       <span className="dt-status-text">{dataItem.status}</span>
                     </div>
                   </td>
-                  <td>${dataItem.amount.toFixed(2)}</td>
+                  <td>{dataItem.amount.toFixed(2)}kg</td>
                   <td className="dt-cell-action">
                     <AreaTableAction />
                   </td>

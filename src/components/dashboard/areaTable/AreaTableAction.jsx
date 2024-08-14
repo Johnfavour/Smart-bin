@@ -50,6 +50,11 @@ const AreaTableAction = () => {
                   Delete
                 </Link>
               </li>
+              <li className="dropdown-menu-item">
+                <Link to="/view" className="dropdown-menu-link">
+                  Reschedule
+                </Link>
+              </li>
             </ul>
           </div>
         )}
